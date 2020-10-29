@@ -10,7 +10,7 @@ input {
 	margin-top: 2%;
 	border-radius: 2px;
 	padding: 1.4rem 2rem 1.6rem;
-	background: rgba(57, 63, 84, 0.8);
+	background: whitesmoke;
 }
 button {
 	padding: 0;
@@ -20,9 +20,10 @@ button {
 	margin-right: 1%;
 	float: right;
 }
+
 body {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background-image: radial-gradient(circle at 0% 0%, #373b52, #252736 51%, #1d1e26);
+	background: linear-gradient(135deg, rgba(58,181,165,1) 0%, rgba(44,141,164,1) 53%, rgba(52,160,165,1) 72%, rgba(58,181,165,1) 72%);
 }
 .demo-flex-spacer {
 	flex-grow: 1;
@@ -33,17 +34,19 @@ body {
 	flex-direction: row;
 	border-radius: 2px;
 	padding: 1.4rem 2rem 1.6rem;
-	background: rgba(57, 63, 84, 0.8);
+	background: rgb(215, 222, 223) 
 }
 .webflow-style-input input, .task-box {
 	flex-grow: 1;
-	color: #bfd2ff;
+	color: #5a5a5a;
 	font-size: 1.8rem;
 	line-height: 2.4rem;
 	vertical-align: middle;
+	font-family: 'Merriweather', serif;
+
 }
 .webflow-style-input input::-webkit-input-placeholder {
-	color: #7881a1;
+	color: rgb(45, 143, 164);
 }
 .webflow-style-input button {
 	color: #7881a1;
@@ -52,11 +55,12 @@ body {
 	transition: color 0.25s;
 }
 .webflow-style-input button:hover {
-	color: #bfd2ff;
+	background-color: #37a8a5;
+	border-color: #37a8a5;
 }
 .btn1 {
 	flex-grow: 1;
-	color: #bfd2ff;
+	color:#5b5b5b;
 	vertical-align: middle;
 	font-size: small;
 }
@@ -127,4 +131,9 @@ img {
 }
 .content {
 	float: right;
+}
+.btndelete{
+	float: right;
+width: 5%;
+margin-top: -2%;
 }
